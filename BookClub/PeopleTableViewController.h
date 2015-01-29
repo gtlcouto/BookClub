@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PeopleTableViewController.h
 //  BookClub
 //
 //  Created by Gustavo Couto on 2015-01-28.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PeopleTableViewController : UITableViewController
 
+@property NSManagedObjectContext * context;
 
 @end
-
